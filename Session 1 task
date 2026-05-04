@@ -1,0 +1,8 @@
+price_item1 = 15
+price_item2 = 20
+price_item3 = 25.25
+total_budget = 40.30
+total_cost_all_items = price_item1 + price_item2 + price_item3
+print(total_cost_all_items)
+difference_between_budget_and_cost =  total_cost_all_items - total_budget
+print(difference_between_budget_and_cost)
