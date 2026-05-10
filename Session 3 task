@@ -7,3 +7,8 @@ elif temperature >= 10 and temperature <= 19:
   print("It's a cool day. Wear a jacket!")
 elif temperature < 10:
   print("It's a cold day. Stay warm!")
+----------------------------------------------------------------------------------
+my_list= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+for x in my_list:
+  if x % 3 == 0:
+    print(x)
